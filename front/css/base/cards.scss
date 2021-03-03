@@ -1,0 +1,127 @@
+.Cards_content {
+  width: 1152px;
+  height: 368px;
+  gap: 20px;
+  // padding: 40px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Card {
+  width: 270px;
+  height: 368px;
+}
+
+.top__content {
+  width: 270px;
+  height: 160px;
+  background: #e8eaf0;
+  // border-radius: 10px 10px 0px 0px;
+  display: flex;
+}
+
+.tag {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  width: 86px;
+  height: 24px;
+  background: #8d8d9d;
+  color: white;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.tag p {
+  display: flex;
+  justify-content: center;
+  margin: 4px;
+}
+
+.bottom__content {
+  width: 270px;
+  height: 208px;
+  background: #f6f7f9;
+  // border-radius: 0px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub_bottom__content {
+  width: 239px;
+  height: 176px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card__data {
+  width: 237px;
+  height: 72px;
+}
+
+.card__data label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 2px;
+}
+
+.card__data i {
+  padding: 3px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.precio__content {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.precio__content___ofert {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+}
+
+.precio__content___regular {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  text-decoration-line: line-through;
+  // margin: 24px 0px;
+}
+
+.sub_bottom__content button {
+  width: 239px;
+  height: 48px;
+  // left: 0px;
+  top: 128px;
+  color: white;
+  background: black;
+  border-radius: 10px;
+  padding: 14px 40px;
+  // margin: 12px 0px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+}

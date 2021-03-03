@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  courseName: MyString
+  category: MyString
+  subcategory: MyString
+  level: 1
+  username: MyString
+  real_price: 9.99
+  price: 9.99
+  discount: 9.99
+  course_score: 9.99
+  users: 1
+
+two:
+  courseName: MyString
+  category: MyString
+  subcategory: MyString
+  level: 1
+  username: MyString
+  real_price: 9.99
+  price: 9.99
+  discount: 9.99
+  course_score: 9.99
+  users: 1

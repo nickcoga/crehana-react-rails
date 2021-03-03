@@ -1,0 +1,67 @@
+.Catalogue_content {
+  position: absolute;
+  left: 360px;
+  top: 600px;
+  width: 1152px;
+  height: 1464px;
+}
+
+.list__course h4 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.filter__content {
+  width: 1152px;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.select__option {
+  width: 212px;
+  height: 76px;
+}
+
+.select__option p {
+  position: absolute;
+  top: 80px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.select__option select {
+  position: absolute;
+  top: 118px;
+  width: 212px;
+  height: 48px;
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background: white;
+}
+
+.button__filter button {
+  position: absolute;
+  left: 935px;
+  top: 118px;
+  width: 207px;
+  height: 48px;
+  color: white;
+  background: #181b32;
+  border-radius: 10px;
+  padding: 14px 40px;
+}
